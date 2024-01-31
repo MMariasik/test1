@@ -1,6 +1,11 @@
 #include <iostream>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+int policz(int a, int v)
+{
+    return a * v;
+}
+
+int main()
+{
+    std::cout << "policz a * v " << policz(2, 8) << std::endl;
 }
